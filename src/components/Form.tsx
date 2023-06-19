@@ -1,6 +1,6 @@
 import { ChangeEvent, Fragment, useState } from "react";
-import Styles from "./form.module.css";
-import { ITask } from "./interfaces";
+import Styles from "../Styles/form.module.css";
+import { ITask } from "../interfaces";
 import TodoList from "./TodoList";
 const Form = () => {
   const [title, setTitle] = useState<string>("");

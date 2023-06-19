@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import Styles from "./TodoList.module.css";
-import { ITask } from "./interfaces";
+import Styles from "../Styles/TodoList.module.css";
+import { ITask } from "../interfaces";
 
 interface Props {
   tasks: ITask[];
