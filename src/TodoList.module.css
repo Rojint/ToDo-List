@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.items-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-container {
+    display: flex;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+#status-filter {
+    background-color: #FDC601;
+    padding: 8px;
+    border: 1px solid #2C444E;
+    border-radius: 30px;
+    width: 80%;
+    cursor: pointer;
+
+
+}
+
+.item-container {
+    display: inline-flex;
+}
+
+
+
+.completed-task {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 50%;
+    width: 35px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.todo-list-title {
+    color: #608d8b;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 4px solid #F5B400;
+    display: block;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.delete {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 50%;
+    width: 35px;
+    border: 1px solid #2C444E;
+    cursor: pointer;
+}
+
+.todo-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 600px;
+}
+
+.todo-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.todo-completed {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 600px;
+    background-color: #F5B400;
+}
+
+.remove-task {
+    color: #2c2102;
+    border: 1px solid #2c2102;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px
+}
+
+.remove-task:hover {
+    color: #fff;
+    background-color: #2c2102;
+}
+
+.todo-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-task {
+    color: #2c2102;
+    border: 1px solid #2c2102;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.complete-task:hover {
+    color: #fff;
+    background-color: #2c2102
+}
